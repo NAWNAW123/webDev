@@ -1,0 +1,149 @@
+
+{% block tittle %} 
+Home page | my Tec Bits
+{% endblock %}
+{% block content %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Shopping System</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<style>
+    html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    
+    
+    padding: 20px;
+    
+}
+
+/* Style the navigation */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: space-around;
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   background-color: pink;
+    overflow: hidden;
+    margin-right:100px; 
+    margin-left: 100px;
+}
+
+nav li {
+    display: inline;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    float: left;
+    margin-left: 50px;
+    
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    
+    
+    padding: 20px;
+    text-align: center;
+}
+
+   .meh{
+   
+    height: 250px;
+
+}
+img{
+    float: left;
+    height: 200px;
+    width: 200px;
+    padding-top: 2px;
+    padding-right: 2px;
+}
+p {
+    color:rgb(72, 71, 71);
+    font-style: italic;
+    font-weight: bold;
+}
+h1 {
+    color: rgb(181, 66, 85) ;
+}
+
+</style>
+<body>
+  <header>
+    <h1>Phone Shopping System</h1>
+    
+    <div class="navbar">
+    <nav>
+      <ul>
+        
+        <li><a href="#index.html">Home</a></li>
+         <li><a href="Phone_view.html">Products</a></li> 
+        <li><a href="login.html">log in</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="meh">
+   <img src="image/logo.JPG">  
+   
+    <p> HELLO DEAR CUSTOMERS!!<br>
+      Welcome to our shopping services
+      We sell used and new mobile phones from DUBAI,USA,US  <br>
+      Band new iphones,samsung,tecno available<br>
+      Exchange deals allowed  <br>
+      Phone accesories are availabe<br>
+      for more information please press the button log in  <br>
+   </p>
+
+
+</div>
+  
+  </header>
+
+  
+    
+  </section> 
+  
+  <footer>
+    <p>&copy; 2023 Phone Shopping System. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
+{% endblock %}
+    
